@@ -1,0 +1,231 @@
+.custom-button {
+  font: normal 180% "Anime Ace 2.0 BB", sans-serif;
+  color: white;
+  background-image: url('../gui/choice_idle_background.png');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.map-button-n {
+  font: normal 180% "Anime Ace 2.0 BB", sans-serif;
+  color: white;
+  background-image: url('../gui/map_n_idle.png');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 3vw;
+  height: 6vh;
+  background-color: transparent;
+  border: 0px;
+}
+.map-button-e {
+  font: normal 180% "Anime Ace 2.0 BB", sans-serif;
+  color: white;
+  background-image: url('../gui/map_e_idle.png');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 3vw;
+  height: 6vh;
+  background-color: transparent;
+  border: 0px;
+}
+.map-button-s {
+  font: normal 180% "Anime Ace 2.0 BB", sans-serif;
+  color: white;
+  background-image: url('../gui/map_s_idle.png');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 3vw;
+  height: 6vh;
+  background-color: transparent;
+  border: 0px;
+}
+.map-button-w {
+  font: normal 180% "Anime Ace 2.0 BB", sans-serif;
+  color: white;
+  background-image: url('../gui/map_w_idle.png');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 3vw;
+  height: 6vh;
+  background-color: transparent;
+  border: 0px;
+}
+.custom-button:hover {
+  background-image: url('../gui/choice_hover_background.png'); /* New background image on hover */
+}
+.custom-button:active {
+  background-image: url('../gui/choice_idle_background.png'); /* New background image on hover */
+}
+.map-button-n:hover {
+  background-image: url('../gui/map_n_hover.png'); /* New background image on hover */
+}
+.map-button-n:active {
+  background-image: url('../gui/map_n_idle.png'); /* New background image on hover */
+}
+.map-button-e:hover {
+  background-image: url('../gui/map_e_hover.png'); /* New background image on hover */
+}
+.map-button-e:active {
+  background-image: url('../gui/map_e_idle.png'); /* New background image on hover */
+}
+.map-button-s:hover {
+  background-image: url('../gui/map_s_hover.png'); /* New background image on hover */
+}
+.map-button-s:active {
+  background-image: url('../gui/map_s_idle.png'); /* New background image on hover */
+}
+.map-button-w:hover {
+  background-image: url('../gui/map_w_hover.png'); /* New background image on hover */
+}
+.map-button-w:active {
+  background-image: url('../gui/map_w_idle.png'); /* New background image on hover */
+}
+.toggle-look {
+  font: normal 180% "Anime Ace 2.0 BB", sans-serif;
+  color: white;
+  background-image: url('../gui/map_look_idle2.png');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 4.1vw;
+  height: 5vh;
+  background-color: transparent;
+  border: 0px;
+}
+.toggle-talk {
+  font: normal 180% "Anime Ace 2.0 BB", sans-serif;
+  color: white;
+  background-image: url('../gui/map_talk_idle.png');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 4.1vw;
+  height: 5vh;
+  background-color: transparent;
+  border: 0px;
+}
+.toggle-get {
+  font: normal 180% "Anime Ace 2.0 BB", sans-serif;
+  color: white;
+  background-image: url('../gui/map_get_idle.png');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 4.1vw;
+  height: 6vh;
+  background-color: transparent;
+  border: 0px;
+}
+.toggle-look:hover { 
+  background-image: url('../gui/map_look_hover.png'); /* New background image on hover */
+}
+.toggle-look:active {
+  background-image: url('../gui/map_look_active.png'); /* New background image on click, until release */
+}
+.lookActive {
+  background-image: url('../gui/map_look_active.png'); /* New background image on click, until next click */
+}
+.toggle-talk:hover {
+  background-image: url('../gui/map_talk_hover.png'); 
+}
+.toggle-talk:active {
+  background-image: url('../gui/map_talk_active.png'); 
+}
+.talkActive {
+  background-image: url('../gui/map_talk_active.png');
+}
+.toggle-get:hover { 
+  background-image: url('../gui/map_get_hover.png'); /* New background image on hover */
+}
+.toggle-get:active {
+  background-image: url('../gui/map_get_active.png'); /* New background image on click, until release */
+}
+.getActive {
+  background-image: url('../gui/map_get_active.png'); /* New background image on click, until next click */
+}
+/* Button to toggle the phone view from the main map view */
+.phone-button {
+  font: normal 180% "Anime Ace 2.0 BB", sans-serif;
+  color: white;
+  background-image: url('../images/phone_small_icon_idle.png');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 8vw;
+  height: 9vh;
+  background-color: transparent;
+  border: 0px;
+}
+.phone-button:hover {
+  background-image: url('../images/phone_small_icon_hover.png'); /* New background image on hover */
+}
+.phone-button:active {
+  background-image: url('../images/phone_small_icon_hover.png'); /* New background image on hover */
+}
+.phone-home-button {
+  font: normal 180% "Anime Ace 2.0 BB", sans-serif;
+  color: transparent;
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.phone-back-button {
+  font: normal 180% "Anime Ace 2.0 BB", sans-serif;
+  color: white;
+  background-image: url('../gui/phone_icons_back_idle.png');
+  background-size: contain; /* Use "contain" to maintain aspect ratio */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: 0px;
+  left: 15%;
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+}
+
+.phone-back-button:hover {
+  background-image: url('../gui/phone_icons_back_hover.png'); /* New background image on hover */
+}
+
+.phone-back-button:active {
+  background-image: url('../gui/phone_icons_back_idle.png');
+}
+
+  /* Button styles for the splash screen start button */
+  .start-button {
+    font-family: "Anime Ace 2.0 BB", sans-serif;
+    font-size: 25px;
+    background-image: url('../gui/start_button_idle.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent; /* This setting allows for correct display of transparency, rather than white*/
+    border: none;
+    padding: 10px 25px;
+    margin: 2px;
+    position: absolute;
+    top: 90%;
+    left: 44.7%;
+    cursor: pointer;
+    font-weight: bold;
+    background-size: 100% 100%; /* Set the background size to adjust to the button */
+    max-width: 200px; /* Adjust the value as needed */
+  }
+
+  .start-button:hover {
+    background-image: url('../gui/start_button_hover.png'); /* New background image on hover */
+  }
+  
+  .start-button:active {
+    background-image: url('../gui/start_button_idle.png');
+  }

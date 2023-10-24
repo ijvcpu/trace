@@ -1,0 +1,107 @@
+  /* Holds the contents of each phone screen*/
+  .phone-screen-container {
+    height: 83vh;
+    width: 22vw;
+    margin: 0 auto;
+    position: fixed;
+    top: 8vh;
+    left: 70.1vw;
+    z-index: 2;
+  }
+  
+  /* Creates a borderless, scrollbar-less scrollable container */
+  .scrollable-container {
+    height: 70vh;
+    width: 21vw;
+    margin: 0 auto;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    scrollbar-color: transparent;
+    position: absolute;
+    top: 15vh;
+    left: 70.5vw;
+    z-index: 2;
+  }
+
+  .disable-scrollbars::-webkit-scrollbar {
+    background: transparent;
+    width: 0px;
+  }
+
+  /* Button styles for text message objects */
+  .text-message-button {
+    font-family: "Roboto", sans-serif;
+    background-image: url('../gui/phone_text_bubble_in.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent; /* This setting allows for correct display of transparency, rather than white*/
+    border: none;
+    padding: 10px 25px;
+    margin: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    background-size: 100% 100%; /* Set the background size to adjust to the button */
+    max-width: 200px; /* Adjust the value as needed */
+  }
+
+  /* Used to align text message objects on the text message screen */
+  .left-button {
+    background-image: url('../gui/phone_text_bubble_in.png');
+    float: left;
+    clear: both;
+  }
+
+  .right-button {
+    background-image: url('../gui/phone_text_bubble_out.png');
+    float: right;
+    clear: both;
+  }
+  /* Broadly used for clickable container elements, like conversations view */
+  .clickable-div {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid transparent; /* Set to a color if a border is desired */
+    cursor: pointer;
+  }
+  /* Broadly used for character icons, like conversations view character icon */
+  .icon {
+    flex-shrink: 0; /* Prevent the icon from growing */
+    margin-right: 20px; /* Spacing between icon and text */
+    width: 70px;
+    height: 70px;
+  }
+
+  /* Broadly used as a text container within a clickable-div container element */
+  .text-container {
+    flex-grow: 1; /* Allow text to grow and fill available space */
+    text-align: center; /* Center-align the text */
+  }
+
+  /* Used to align text elements TODO: may be assigned directly in functions */
+  .text-top {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .text-bottom {
+    font-family: "Roboto", sans-serif;
+    color: #888;
+    text-align: left;
+  }
+
+  /* Add hover effect */
+  .clickable-div:hover {
+      background-color: #f0f0f0;
+  }
+
+  .headerText{
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    font-size: 2vw;
+    top: 5vh;
+    font-weight: normal;
+    text-align: center;
+    /* text-decoration: underline; */
+  }

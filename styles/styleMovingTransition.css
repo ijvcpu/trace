@@ -1,0 +1,79 @@
+.movingImage {
+  position: absolute;
+  bottom: -1080px; /* Initial position below the viewport, set to the image height */
+  left: 50%; /* Initial position centered horizontally */
+  transform: translateX(-50%); /* Center the image horizontally */
+  opacity: 0; /* Initially hidden */
+  transition: bottom 1s ease, opacity 1s ease; /* Define the transition properties */
+  height: auto;
+}
+
+.animate {
+  bottom: 0; /* New position on the screen, aligning it with the bottom */
+  opacity: 1; /* Fade in the image */
+}
+
+.shiftRight {
+  left: 80%; /* Shift the image to the right by 80% */
+  transition: left 1s ease; /* Define the transition property for shifting right */
+}
+.shiftCenter {
+  left: 50%;
+  transition: left 1s ease;
+}
+.fadeInIcons {
+  bottom: 0;
+  opacity: 1;
+  transition: opacity 1s ease; /* Define the transition properties */
+}
+
+.fadeOut{
+  opacity: 0;
+}
+.fadeIn {
+  opacity: 1;
+  transition: opacity 1s ease; /* Define the transition properties */
+}
+
+.container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%; /* Set container width to 100% of viewport */
+  height: 100vh; /* Set container height to 100% of viewport height */
+}
+
+/* 100% here refers to the size of the element relative to the current browser window, effectively allowing dynamic resizing*/
+.responsive-img {
+  width: 100%;
+  height: 100%; 
+}
+
+/* Reverse the animation for the first element */
+.animate-reverse {
+  animation: slide-in-reverse 1s ease forwards;
+}
+
+/* Reverse the animation for the second element */
+.animate-reverse2 {
+  animation: fade-out-reverse 1s ease forwards;
+}
+
+@keyframes slide-in-reverse {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Defines a reverse animation for fading out */
+@keyframes fade-out-reverse {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

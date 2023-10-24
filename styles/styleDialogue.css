@@ -1,0 +1,26 @@
+.small { /* For determining font and corresponding outline size*/
+  font: normal 230% "Anime Ace 2.0 BB", sans-serif;
+  stroke-width: 9px;
+  stroke-linejoin: round;
+  paint-order: stroke;
+  cursor: default;
+}
+.italic {
+  font-style: italic;
+}
+.Trace {
+  fill: white;
+  stroke: #046145;
+}
+.News {
+  fill: white;
+  stroke: #8e1118;
+}
+.Eye {
+  fill: white;
+  stroke: #053788;
+}
+.Gragulon {
+  fill: white;
+  stroke: #88057f;
+}

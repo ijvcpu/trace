@@ -1,0 +1,14 @@
+.font-style {
+  font-family: "Roboto", sans-serif; /* Replace with your preferred font family */
+  font-size: 1vw; /* Adjust the font size as needed */
+  font-weight: normal; /* Use "bold" for bold text */
+  color: black; /* Black text color */
+  line-height: 1.5; /* Adjust line height for spacing between lines */
+  /*text-align: left; /* Adjust text alignment (left, center, right) */
+  text-decoration: none; /* Add underline, overline, or other decorations */
+  text-transform: none; /* Capitalization: uppercase, lowercase, none */
+  position: absolute;
+  user-select: none; /* Prevents the user from selecting or highlighting the text*/
+  cursor: default; /* Change cursor to the default arrow */
+  z-index: 80;
+}

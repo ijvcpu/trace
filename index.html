@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="styles/styleDialogue.css">
+  <link rel="stylesheet" href="styles/styleButton.css">
+  <link rel="stylesheet" href="styles/styleScreen.css">
+  <link rel="stylesheet" href="styles/styleMap.css">
+  <link rel="stylesheet" href="styles/styleMapClickableArea.css">
+  <link rel="stylesheet" href="styles/styleMovingTransition.css">
+  <link rel="stylesheet" href="styles/stylephone.css">
+  <link rel="stylesheet" href="styles/stylephoneMessages.css">
+
+  <link rel="preload" href="./images/bg001.png" as="image">
+  <link rel="preload" href="./images/bg002.png" as="image">
+  <link rel="preload" href="./images/bg003.png" as="image">
+  <link rel="preload" href="./images/bg004.png" as="image">
+  <link rel="preload" href="./images/bg005.png" as="image">
+  <link rel="preload" href="./images/bg006.png" as="image">
+  <link rel="preload" href="./images/bg007.png" as="image">
+  <link rel="preload" href="./images/bg008.png" as="image">
+  <link rel="preload" href="./images/bg009.png" as="image">
+  <link rel="preload" href="./images/bg010.png" as="image">
+  <link rel="preload" href="./images/bg011.png" as="image">
+  <link rel="preload" href="./images/bg012.png" as="image">
+  <link rel="preload" href="./images/bg013.png" as="image">
+  <link rel="preload" href="./images/bg014.png" as="image">
+  <link rel="preload" href="./images/bg015.png" as="image">
+  <link rel="preload" href="./images/bg016.png" as="image">
+  <link rel="preload" href="./images/bg017.png" as="image">
+  <link rel="preload" href="./images/bg018.png" as="image">
+  <link rel="preload" href="./images/bg019.png" as="image">
+  <link rel="preload" href="./images/bg020.png" as="image">
+  <link rel="preload" href="./images/bg021.png" as="image">
+  <link rel="preload" href="./images/bg022.png" as="image">
+  <link rel="preload" href="./images/bg023.png" as="image">
+  <link rel="preload" href="./images/bg024.png" as="image">
+  <link rel="preload" href="./images/bg025.png" as="image">
+  <link rel="preload" href="./images/bg026.png" as="image">
+  <link rel="preload" href="./images/button_Idle.png" as="image">
+  <link rel="preload" href="./images/phone_splash.png" as="image">
+  <link rel="preload" href="./images/choice_box.png" as="image">
+  <link rel="preload" href="./images/m00n.png" as="image">
+  <link rel="preload" href="./images/m00e.png" as="image">
+  <link rel="preload" href="./images/m00s.png" as="image">
+  <link rel="preload" href="./images/m00w.png" as="image">
+  <link rel="preload" href="./images/m01n.png" as="image">
+  <link rel="preload" href="./images/m01e.png" as="image">
+  <link rel="preload" href="./images/m01s.png" as="image">
+  <link rel="preload" href="./images/m01w.png" as="image">
+  <link rel="preload" href="./images/m02n.png" as="image">
+  <link rel="preload" href="./images/m02e.png" as="image">
+  <link rel="preload" href="./images/m02s.png" as="image">
+  <link rel="preload" href="./images/m02w.png" as="image">
+  <link rel="preload" href="./images/m03n.png" as="image">
+  <link rel="preload" href="./images/m03e.png" as="image">
+  <link rel="preload" href="./images/m03s.png" as="image">
+  <link rel="preload" href="./images/m03w.png" as="image">
+
+  <script src="scripts/svg.js"></script>
+  <script src="scripts/dialogue.js"></script>
+  <script src="scripts/button.js"></script>
+  <script src="scripts/game.js"></script>
+  <script src="scripts/mapNavigation.js"></script>
+  <script src="scripts/mapClickableArea.js"></script>
+  <script src="scripts/mapData.js"></script>
+  <script src="scripts/phone.js"></script>
+  <script src="scripts/phoneMessages.js"></script>
+  <script src="scripts/phoneMessagesCartridges.js"></script>
+  <script src="scripts/dialogueCartridges.js"></script>
+</head>
+<body>
+  <button id="startButton">START</button>
+  <style> 
+  </style>
+  <script>
+    screenHandler.raisePauseFlag(); // Pauses click to progress functionality until the game starts
+    document.body.style.backgroundImage = 'url(' + 'images/startSplash.png)';
+    // Creates initial SVG element for holding text
+    generateSVG();
+    //screenHandler.lowerPauseFlag();
+    //onStart();
+    // Initial game startup is handled in game.js, where an event listener waits for the initial DOM to load
+
+    // Prepare the start button
+    var button = document.getElementById("startButton");
+    button.classList.add('start-button', 'button');
+
+    button.addEventListener("click", function () {
+      screenHandler.lowerPauseFlag();
+      onStart();
+    });
+
+    
+  
+
+  </script>
+
+</body>
+</html>

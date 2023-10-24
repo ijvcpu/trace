@@ -1,0 +1,9 @@
+body {
+  user-select: none;
+  margin: 0;
+  overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  transition: background-image 0.8s ease-in-out;
+}
