@@ -74,7 +74,7 @@ const dialogueCartridgeList = {
       "Eye_bg015_topRight_tag_tagInfo_Ah, the <i polygon. Quite the brazen crime.",
       "Trace_bg018_right_tag_tagInfo_Indeed.",
       "Eye_bg016_left_tag_tagInfo_Good sir Trace, I have peered beyond the wireframe of your being, and I see that you are in seek of hypercredits.",
-      "Trace_bg017_right_tag_tagInfo_That is very estute of you, o-envision'ed one.",
+      "Trace_bg017_right_tag_tagInfo_That is very astute of you, o-envision'ed one.",
       "Eye_bg015_topRight_tag_tagInfo_And I shall assist you in your quest, but first: as is custom, you must answer one of my riddles.",
       "Trace_bg018_topRight_tag_tagInfo_I see. I accept your challenge. Though I must warn you: I am a <i master in the realm of logic.",
       "Eye_bg019_topRight_tag_tagInfo_Then grapple with this, good detective:",
