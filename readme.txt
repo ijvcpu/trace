@@ -1,5 +1,8 @@
 R.A. Trace, Hyperdimensional Detective in: The Case of the Purloined Polygon
-Version 0.3, 10/24/2023
+Version 0.31, 11/2/2023
+
+This program is available as a playable in-browser game at:
+detectivetrace.itch.io/trace
 
 This program, written primarily in JavaScript, is a brief "vertical slice" showcase of an engine designed to run point-and-click style video games.
 This engine - nicknamed the "Cyan3 Engine" because everything needs a catchy name - allows for switching between three different game modes:
